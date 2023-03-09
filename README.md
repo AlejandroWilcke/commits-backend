@@ -17,7 +17,7 @@ In root folder:
 
 # Run the program
 ```
- npm run dev
+ npm run start:dev
 ```
 
 # Using the program
