@@ -10,4 +10,5 @@ export default interface ICommit {
   author: ICommitAuthor;
   date: string;
   message: string;
+  html_url: string;
 }

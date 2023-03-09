@@ -23,6 +23,7 @@ class OctokitService {
           },
           date: el.commit?.author?.date,
           message: el.commit?.message,
+          html_url: el.html_url,
         }
       });
     }catch(error){
